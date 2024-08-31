@@ -1,0 +1,27 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 200px;
+  width: auto;
+}
+.profile-picture{
+  height: 80%;
+  width: 25%;
+  border: 2px solid black;
+}
+
+.aboutme {
+  height: 100%;
+  font-size: 16px;
+  border: 2px solid black;
+  width: 70%;
+  color: black;
+  padding: 10px;
+}

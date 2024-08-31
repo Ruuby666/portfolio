@@ -1,0 +1,50 @@
+.content-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 500px;
+}
+
+.navbar {
+  padding: 10px 20px ;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu span {
+  text-decoration: none;
+  color: #FFF; /* Texto blanco */
+  padding: 10px 20px;
+  border-radius: 25px; /* Bordes redondeados */
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer; /* Indicador de que se puede interactuar */
+}
+
+.menu span:hover {
+  background-color: #919191; /* Fondo gris oscuro al pasar el ratón */
+}
+
+.menu .active {
+  background-color: #cdcdcd; /* Fondo gris más oscuro para el elemento activo */
+  color: #1f1f1f;
+  font-weight: bold;
+}
+
+img{
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
