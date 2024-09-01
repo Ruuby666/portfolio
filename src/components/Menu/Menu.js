@@ -23,7 +23,7 @@ const Menu = () => {
                     ))}
                 </ul>
             </nav>
-            <img src='http://localhost:3000/logo192.png' alt='Not logo found'></img>
+            <img src='/logo192.png' alt='Not logo found'></img>
         </body>
 
     );
